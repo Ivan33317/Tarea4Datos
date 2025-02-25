@@ -29,7 +29,7 @@ exports.crearPerfil = functions.https.onRequest(async (req, res) => {
   });
 });
 
-// 2. Obtener perfil por UID
+// 2. Obtener perfil por UID fffff
 exports.obtenerPerfil = functions.https.onRequest(async (req, res) => {
   cors(req, res, async () => {
     const { uid } = req.query;
